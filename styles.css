@@ -1,0 +1,77 @@
+/*
+Desafío de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
+archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
+*/
+
+/* Ejercicio 1: Centrar el texto en un span */
+
+/* Arrancaremos este ejercicio por ti */
+.contenedor__span_uno {
+display: block;
+text-align: center;
+}
+
+
+/* Ejercicio 2 */
+
+.titulo {
+visibility: hidden;
+}
+
+
+/* Ejercicio 3 */
+
+.contenedor_objetivo__ejercicio_tres
+{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+
+
+/* Ejercicio 4 */
+
+#ejercicioCuatro {
+position: fixed;
+top: 0px;
+left: 0px;
+}
+
+
+
+/* Ejercicio 5 */
+
+.contenedor__ejercicio_cinco {
+	display: flex;
+justify-content: space-around; 
+align-items: center;
+}
+
+
+/* Ejercicio 6 */
+
+.contenedor__ejercicio_cinco {
+ flex-direction: row-reverse;
+}
+
+
+/* Ejercicio 7 */
+
+.elementoUno{
+	display: flex;
+   flex-direction: row-reverse;
+}
+
+.elementoDos{
+	display: flex;
+  justify-content: flex-end;: 
+}
+
+.elementoTres{
+	align-items: baseline;
+}
+
+.elementoCuatro{
+   align-self: flex-start;
+}
